@@ -4,7 +4,7 @@ https://codepen.io/RayaWilkins/pen/VwbaLoE
  
  
     1. What is Semantic HTML? 
-    Specific ways to organiz html
+    Specific ways to organize html
     
     2. What is HTML used for? 
     It is used to organize content
@@ -107,8 +107,17 @@ It is used as a main header and ideally should be used once but there are 6 head
     It is easier to track and manage changes.
     
     35. How often should I commit to github?
+    About every 20 minutes or so OR when major changes are made.
+
     36. What is the command we would use to push our repo up to github? 
+    git push --set-upstream origin branch name (after git add . and git commit -m "changes made"
+
     37. Walk me through Lambda's git flow. 
+    cd (directory name)
+    git clone
+    cd (clone name)
+    code .
+    then add pushes, as stated above.
 
 Stretch Questions
 
