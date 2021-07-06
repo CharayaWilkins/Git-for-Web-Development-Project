@@ -110,7 +110,7 @@ It is used as a main header and ideally should be used once but there are 6 head
     About every 20 minutes or so OR when major changes are made.
 
     36. What is the command we would use to push our repo up to github? 
-    git push --set-upstream origin branch name (after git add . and git commit -m "changes made"
+    git push --set-upstream origin branch name (1st time) git push can be used anytime after (after git add . and git commit -m "changes made"
 
     37. Walk me through Lambda's git flow. 
     cd (directory name)
@@ -122,7 +122,16 @@ It is used as a main header and ideally should be used once but there are 6 head
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+    block elements take up the entire width of the page and do not allow other elements beside it.
+    
     2. What happens when an element is positioned absolutely? 
+    It stays in the sam espot, regardless of the elements around it.
+
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    you would use the vh styling in css.
+
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    Block: div, header, p
+    inline: span, img
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+    box model is content, inside of padding, inside of border, inside of margin.
